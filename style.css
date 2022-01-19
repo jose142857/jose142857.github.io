@@ -10,6 +10,32 @@
 body{
     background: #c4c3c3;
 }
+.project__infor{
+    text-align: center;
+    background: #00ff1f;
+    padding: 12px 0px 12px 0px;
+}
+.project__infor .infor{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    text-shadow: 3px 0 #a842ad;
+}
+.project__infor .infor:hover{
+    color: white;
+    text-shadow: 3px 0 #e60e4f;
+}
+.project__infor .dowload{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    text-shadow: 3px 0 #a842ad;
+    display: block;
+}
+.project__infor .dowload:hover{
+    color: white;
+    text-shadow: 3px 0 #e60e4f;
+}
 
 /* HEADER */
 header{
