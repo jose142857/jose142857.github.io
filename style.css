@@ -1,3 +1,7 @@
+
+
+
+@import url(style-header.css);
 @import url(style-menu.css);
 *{
     margin: 0;
@@ -33,76 +37,11 @@ body{
     text-shadow: 3px 0 #a842ad;
     display: block;
 }
+
 .project__infor .dowload:hover{
     color: white;
     text-shadow: 3px 0 #e60e4f;
 }
-
-/* HEADER */
-header{
-    background: black;
-}
-
-header .content{
-    display: flex;
-    align-items: center;
-}
-
-header .logo, .menu, .menu > li{
-    display: inline-block;
-}
-
-header .menu{
-    margin-left: 50px;
-}
-
-header .menu > li{
-    position: relative;
-}
-
-
-header .menu > li:hover{
-    border-bottom: 2px solid aqua;
-}
-
-header .menu > li > a{
-    text-decoration: none;
-    display: block;
-    padding: 20px 50px;
-}
-
-header .menu > li:hover > ul.submenu{
-    display: block;
-}
-
-.submenu{
-    list-style: none;
-    display: block;
-    position: absolute;
-    top: 100%;
-    width: 200px;
-    z-index: 100;
-}
-
-.submenu li a{
-    text-decoration: none;
-    display: block;
-    padding: 10px 50px;
-    background: gold;
-    border-bottom: 1px solid red;
-}
-
-.submenu li:last-child a{
-    border-bottom: none;
-}
-
-.submenu li a:hover{
-    text-decoration: dashed;
-    background: rgb(0, 255, 42);
-   
-}
-
-/*END HEADER */
 
  .logo img{
    width: 80px;

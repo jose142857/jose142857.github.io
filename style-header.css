@@ -1,0 +1,109 @@
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar .content{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 0;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown .dropbtn img{
+    width: 12px;
+    height: 12px;
+  }
+  
+
+.dropdown .content {
+      padding: 40px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(121, 119, 119);
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: rgb(121, 119, 119);
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.submenu{
+    list-style: none;
+}
+
+.submenu li{
+    margin-bottom: 10px;
+}
+
+.submenu li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.submenu li a:hover{
+    text-decoration: underline;
+    
+}
+
