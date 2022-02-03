@@ -24,23 +24,23 @@ body{
     text-decoration: none;
     font-size: 30px;
     color: red;
-    text-shadow: 3px 0 #a842ad;
+    text-shadow: 3px 3px 3px #a842ad;
 }
 .project__infor .infor:hover{
     color: white;
-    text-shadow: 3px 0 #e60e4f;
+    text-shadow:  3px 3px 3px #e60e4f;
 }
 .project__infor .dowload{
     text-decoration: none;
     font-size: 30px;
     color: rgb(10, 10, 10);
-    text-shadow: 3px 0 #a842ad;
+    text-shadow:  3px 3px 3px #a842ad;
     display: block;
 }
 
 .project__infor .dowload:hover{
     color: white;
-    text-shadow: 3px 0 #e60e4f;
+    text-shadow:  3px 3px 3px #e60e4f;
 }
 
  .logo img{
@@ -96,11 +96,10 @@ a{
     justify-content: space-between;
     align-content: space-between;
     row-gap: 19px;
-    /* column-gap: 19px; */
+    column-gap: 19px;
 }
 
 
-}
 .item{
     border-radius: 5px;
     flex-basis: 24%;
@@ -130,6 +129,10 @@ a{
 
 .item__content .h2{
    margin: 20px 0px;
+   display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .item__content .time{
